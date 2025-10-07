@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">.</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <div class="hero-img">
+        <img src="https://nmc-radix.com/wp-content/uploads/2023/06/Difference-between-Web-Development-and-Web-Programming.jpg" alt="Your photo">
+      </div>
+      <div class="hero-text">
+        <h2>Hello, I'm <span class="highlight">Tanzeela</span> 👋</h2>
+        <p class="role">Frontend Web Developer | JavaScript Enthusiast</p>
+        <p class="desc">
+          I love crafting clean, responsive, and interactive web experiences using HTML, CSS, and JavaScript.
+        </p>
+        <div class="socials">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="projects-section">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <div class="card-content">
+          <h3>Smart Form Builder</h3>
+          <p>Dynamic form builder with real-time validation and clean UI.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="card-content">
+          <h3>Landing Page</h3>
+          <p>Modern responsive landing page with smooth scrolling animations.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="card-content">
+          <h3>Dashboard UI</h3>
+          <p>Interactive dashboard with dark mode toggle and animated charts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="contact-section">
+    <h2>Let’s Connect</h2>
+    <p>Have a project or just want to say hi? Reach out!</p>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 | Made using HTML, CSS & JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
